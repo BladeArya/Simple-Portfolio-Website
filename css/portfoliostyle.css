@@ -1,0 +1,125 @@
+/*STYLE FOR FRONT BODY*/
+body{
+  /*background-color: yellow;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../pics/main2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+}
+*{
+  color: white;
+  font-family: 'Righteous', cursive;
+  margin: 0;
+  padding: 0;
+}
+.contents{
+  font-size: 40px;
+  position: absolute;
+  right: 200px;
+}
+.contents ul{
+  float: right;
+  list-style-type: none;
+}
+.contents ul li{
+  display: inline-block;
+  padding: 20px;
+}
+.contents li a{
+  text-decoration: none;
+  padding: 20px;
+}
+.contents li a:hover{
+  background-color: black;
+}
+#active a{
+    background-color: black;
+}
+#head1{
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  font-size: 100px;
+}
+#para1{
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  padding-top: 10px;
+}
+.problem_box{
+  color: black;
+  background-color: black;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  text-align: center;
+}
+#clickbox{
+  background-color: red;
+  color: white;
+}
+/*STYLE FOR ABOUT ME PAGE*/
+.para2{
+ position:relative;
+ top: 200px;
+ left: 400px;
+ font-size: 30px;
+}
+.profilepic img{
+  width: 20%;
+  position: absolute;
+  top: 100px;
+  padding: 20px;
+  float: left;
+}
+#w1{
+  font-size: 50px;
+}
+/*STYLE FOR BLOG AND WORK*/
+.para3{
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+/*STYLE OF CONTACT PAGE*/
+.form_style{
+  font-size: 20px;
+}
+#name{
+  font-size: 20px;
+}
+#mail{
+  font-size: 20px;
+}
+#pass{
+  font-size: 20px;
+}
+#sub{
+  position: absolute;
+  left: 500px;
+  background-color: black;
+  height: 80px;
+  width: 150px;
+  text-align: center;
+}
+.list_value{
+  color: black
+}
+.list_value option{
+  color: black;
+}
+#text_form{
+  color: black;
+}
+/*STYLE OF THANK YOU PAGE*/
+.para4{
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 400px
+}
